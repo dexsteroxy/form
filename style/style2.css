@@ -1,122 +1,187 @@
-body{
+.body{
     
     background-image: linear-gradient(to right, blue, rgba(255,0,0,1));
-    height: 100vh;
+
+  height: 100vh;
+    padding: 20px;
+ justify-content: center;
+ display: flex;
+ 
     
       }
       
       
 
       .form{
-        width: 954px;
-        height: 480px;
+        width: 854px;
+        height: 505px;
         background: linear-gradient(to right,red, blue);
-        position: absolute;
-        top: -20px;
-        margin: 100px;
-        margin-left: 300px;
-        border-radius: 10px;
-        padding: 25px;
         
+        justify-content: center;
         
-      }
-
-      .form h1{
-        width: 220px;
-        font-family: sans-serif;
+        display: flex;
         text-align: center;
-        color: white;
-        font-size: 29px;
-        border-radius: 10px;
-        margin: 6px;
-        padding: 8px;
-        
+        box-shadow:  0 6px 20px 0 rgb(255, 4, 201);
       }
-      
-      .form input{
-        background-color: black;
-        border: 1px solid rgba(0, 0, 225, 1.0);
-        border-radius: 18px;
-        margin: 0px;
-        font-size: 20px;
-        margin-left: 210px;
-        
-        margin-right: 25px;
-        
-        margin-bottom: 50px;
-
-      }
-      
+    
       .music{
-        width: 650px;
+        width: 300px  ;
         height: 505px;
         background: linear-gradient(to right,black, black);
-        margin-left: 160px;
+        box-shadow:  0 6px 20px 0 rgb(49, 203, 97);
+        justify-content: center;
+      
+        
+        
+        
       }
-      .ugoo{
+   
+     
+      @media screen and (max-width: 480px) {
+        .form{
+          padding: 60px;
+          width: 160px;
+          position: absolute;
+     
+        
+    justify-content: center;
+      
+        }
+        .please{
+          justify-content: center;
+          text-align: center;
+          width: 180px;
+         
+          
+      }
+
+      
+      .music{ 
+        width: 120px;
+       
+        }
+        .body{
+        
+          
+        
+        }
+        
+    }
+   
+
+
+      .please{
         color: white;
-        margin-left: 190px;
-        margin-top: 10px;
-      }
-      .ink{
-        color: white;
-        
-        margin-left: 280px;
-        margin-bottom: -100px;
-        margin-top: -3px;
-        
-        
-      }
-      .btn{
-        
-        margin-top: 5px;
-        background: black;
-        color: white;
-        border: 2px solid #2b9138;
-        font-size: 20px;
-        padding: 10px;
-        border-radius: 16px;
-        width: 100px;
-        margin-left: 289px;
-        margin-bottom: 210px
-        
-        
-        
-      }
-      .form h1{
-        margin-left: 199px;
-      }
-      .pen{
-        text-decoration: none;
-        color: white;
-        margin-bottom: 40px;
-        
-      }
-      .me{
-        height: 30px;
-        width: 30px;
-        margin-top: -141px;
-        color: white;
-        margin-left: 330px;
-      }
-      .love{
-        
-        height: 30px;
-        width: 30px;
-        color: white;
-        margin-left: 200px;
-        margin-top: -25px;
+       justify-content: center;
+       justify-items: center;
+       text-align: center;
+       align-items: center;
+      
+       padding-top: 40px;
+       /* justify-content: space-evenly; */
 
       }
-      .book{
-        height: 30px;
-        width: 30px;
-        color: white;
-        margin-left: 450px;
-        margin-top: -29px;
+      @media screen and (max-width: 880px) {
+        .body{
+          height: 945px;
+          padding: 100px;
+          
+          /* margin-top: 120px; */
+         
+          
+        }
+        .form{
+          margin-top: 10px;
+        
+          
+
+        }
+        .music{
+          width: 200px;
+        }
+        
+          
+          
+        
+    
       }
-input{
-  text-align: center;
-  margin-bottom: -30px;
-}
+      @media screen and (min-width: 910px) {
+        .music{
+          width:400px ;
+          position: fixed;
+        }
+        .form{
+          position: fixed;
+         
+        }
+      }
+        
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      .see{
+        text-decoration: none;
+        margin: 20px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        border: 1px solid skyblue;
+        padding: 10px;
+        border-radius: 20px;
+        color: gray;
+      }
+      .saw{
+      text-decoration: none;
+      margin: 20px;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      border: 1px solid skyblue;
+      padding: 10px;
+      border-radius: 20px;
+      color: gray;
+    }
+    .none{
+      
+      color: gray;
+      
+     
+    }
+    .girl{
+      color:white ;
+      border: 1px solid lightgreen;
+      padding: 10px;
+      border-radius: 15px;
+      padding-left: 30px;
+      padding-right: 30px;
+      
+      
+    }
+    .material-icons{
+      
+      
+order: i;
+      
+    }
+      
+        
+        
+     
   
